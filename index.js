@@ -33,3 +33,15 @@ var sortedRobots = robots.map(function (robot) {
     alliance: knownAlliance
   });
 });
+
+var coloredZebraStripes = zebraStripes.map(function (stripe, index) {
+  var stripeColor;
+  if () {
+    stripeColor = 'black';
+  } else {
+    stripeColor = 'white';
+  }
+  return Object.assign({}, stripe, {
+    color: stripeColor
+  });
+});
