@@ -36,7 +36,7 @@ var sortedRobots = robots.map(function (robot) {
 
 var coloredZebraStripes = zebraStripes.map(function (stripe, index) {
   var stripeColor;
-  if () {
+  if (index % 2 == 0) {
     stripeColor = 'black';
   } else {
     stripeColor = 'white';
